@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+author: "aleks"
+date: "18 października 2018"
+output: html_document
+---
+
+```{r}
+ library(ggplot2)
+```
+
+
+```{r}
+mydata<-read.csv('c:/Users/aleks/Desktop/carpentry/gapminder_data.csv')
+myplot<-ggplot(mydata, aes(x=year, y=gdpPercap, colour=continent))+geom_point()
+myplot
+```
+
+```{r}
+sessionInfo()
+```
+
