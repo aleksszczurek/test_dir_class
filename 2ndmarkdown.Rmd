@@ -1,6 +1,6 @@
 ---
 title: "Untitled"
-author: "aleks"
+author: "Mark"
 date: "18 października 2018"
 output: html_document
 ---
